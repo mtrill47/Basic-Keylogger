@@ -41,6 +41,7 @@ def on_press(key):
         keys = []
 
 def on_release(key):
+    '''killing the script if ESC is pressed'''
     if key == Key.esc:
         return False
         
